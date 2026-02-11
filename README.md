@@ -29,11 +29,16 @@ Use this tool to manage your friend list and identify inactive players:
 3. **The Analysis**: Upload the CSV to an AI (like Gemini or ChatGPT) with the following prompt:
    > *"I am providing a CSV file of game logs. Please compare the names in 'Gift to a friend' with the names in 'Gift from a friend'. List the users who received a gift from me but did not send one back so I can audit my friend list."*
 
-## 🛠️ Customization
+### 🛠️ Customization
 
 If your internet connection is slow and pages aren't loading fast enough, increase the timeout value in the script:
+
 ```javascript
 await new Promise(resolve => setTimeout(resolve, 2000)); // Set to 2000ms (2 seconds)
+```
 
 ⚠️ Disclaimer
 This script is for educational purposes only. Use it responsibly and according to the game's Terms of Service.
+
+### 📥 Download
+[![Download Script](https://img.shields.io/badge/Download-Script.js-blue?style=for-the-badge&logo=javascript)](https://github.com/LaraGeromel/TheWest-gift-tracker/releases/download/v1.0.0/TW-Tracker-Log.js)
