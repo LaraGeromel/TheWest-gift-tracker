@@ -31,7 +31,8 @@ async function extractAndDownloadLogs() {
         if (btnNext && getComputedStyle(btnNext).display !== 'none') {
             btnNext.click();
             // Wait for AJAX content to load
-            await new Promise(resolve => setTimeout(resolve, 1000));
+        const randomDelay = Math.floor(Math.random() * (2000 - 1200 + 1) + 1200);
+            await new Promise(resolve => setTimeout(resolve, randomDelay));
         } else {
             hasNextPage = false;
         }
@@ -61,5 +62,6 @@ async function extractAndDownloadLogs() {
 
     console.log(`Success! ${allLogs.length} records extracted.`);
 }
+
 
 extractAndDownloadLogs();
