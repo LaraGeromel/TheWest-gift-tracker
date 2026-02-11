@@ -34,4 +34,4 @@ Use this tool to manage your friend list and identify inactive players:
 This script is for educational purposes only. Use it responsibly and according to the game's Terms of Service.
 
 ### 📥 Download
-[![Download Script](https://img.shields.io/badge/Download-Script.js-blue?style=for-the-badge&logo=javascript)](https://github.com/LaraGeromel/TheWest-gift-tracker/releases/download/v1.0.0/TW-Tracker-Log.js)
+[![Download Script](https://img.shields.io/badge/Download-Script.js-blue?style=for-the-badge&logo=javascript)](https://github.com/LaraGeromel/TheWest-gift-tracker/releases/download/v1.0.1/TW-Tracker-Log.js)
